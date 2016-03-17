@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"> <!--<![endif]-->
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  
+    <title>My App Demo Page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" media="" href="css/main-style.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="js/debug.js"></script>
+    <script src="js/module.js" defer></script>
+	<script src="js/user_settings.js" defer></script>
+	<script src="js/dom.js" defer></script>
+	<script src="js/functions.js" defer></script>
+	<script src="js/main.js" defer></script>
+</head>
+<body>
+    <div id="container">
+	<header>
+		<h1 class="fontface">Open JAjax Demo Site</h1>
+	</header>
+        <nav>
+            <ul>			
+				<li><a onclick="" href="index.html?action=test_local">Test Local </a></li>
+				<li><a onclick="" href="index.html?test=m_select&action=do_select&t=demoTable">Dinamic Select</a></li>
+				<li><a href="index.html?test=m_table&action=do_table&t=demoTable">Ajax Table</a></li>
+				<li><a href="index.html?action=test_string">Test Ajax </a></li>				
+				<li><a href="index.html">Home</a></li>
+			</ul>
+        </nav>
+        <aside>
+            <p id="_aside">This is Aside</p>
+            <p id="_aside"><a onclick="localStorage.clear()" href="#">Clear Localstorage</a></p>            
+        </aside>
+        <div id="content">
+           <p id="main">Hello! Click on links above to see how the framowork works.</p>
+       </div>
+       <footer>
+            <p>This is the Footer</p>
+       </footer>
+    </div>
+</body>
+</html>
+
+
